@@ -8,7 +8,7 @@ import Vapor
 import HTTP
 import Kanna
 
-final class WhereToCreditController {
+ final class WhereToCreditController {
 
     var dropp:Droplet? = nil
     

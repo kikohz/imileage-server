@@ -14,7 +14,7 @@ let package = Package(
         .package(url: "https://github.com/tid-kijyun/Kanna.git", .upToNextMajor(from: "2.2.1")),
         ],
     targets: [
-        .target(name: "App", dependencies: ["Vapor", "FluentProvider", "Kanna"],  // < You need this.
+        .target(name: "App", dependencies: ["Vapor", "FluentProvider", "Kanna"],  
             exclude: [
                 "Config",
                 "Public",

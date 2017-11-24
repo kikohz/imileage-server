@@ -18,6 +18,11 @@ extension Droplet {
             return req.description
         }
         
+        
+        let wc = WhereToCreditController()
+        wc.addRoutes(self)
+        get("wc", handler: wc.whereCredit)
+        
         let pc = PostController()
         get("home", handler:pc.index)
 
